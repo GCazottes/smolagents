@@ -581,6 +581,7 @@ class OpenAIServerModel(Model):
         self.client = openai.OpenAI(
             base_url=api_base,
             api_key=api_key,
+            http_client=httpx.Client(verify=False)
         )
         self.kwargs = kwargs
         self.custom_role_conversions = custom_role_conversions
