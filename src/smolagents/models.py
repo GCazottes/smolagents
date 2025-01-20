@@ -18,6 +18,7 @@ import json
 import logging
 import os
 import random
+import httpx
 from copy import deepcopy
 from dataclasses import asdict, dataclass
 from enum import Enum
