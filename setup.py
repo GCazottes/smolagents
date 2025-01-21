@@ -11,10 +11,5 @@ setup(
     url="https://github.com/GCazottes/smolagents",
     packages=find_packages(),  # Trouve automatiquement les sous-packages
     install_requires=[],       # Liste des dépendances
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
     python_requires=">=3.6",
 )
